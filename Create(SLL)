@@ -1,0 +1,74 @@
+#include<stdio.h>
+#include<stdlib.h>
+struct node{
+    int data;
+    struct node* link;
+};
+struct node* head = NULL;
+struct node* cur;
+struct node* temp;
+struct node* create(struct node* head){
+    int n;
+    printf("Give the no of nodes");
+    scanf("%d",&n);
+    while(n--){
+        cur = (struct node*)malloc(sizeof(struct node));
+        scanf("%d",cur->data);
+        cur->link = NULL;
+        if(head == NULL){
+            head = cur;
+        }
+        else{
+            temp = head;
+            while(temp->link != NULL){
+                temp = temp->link;
+            }
+            temp->link = cur;
+        }
+    }
+    return head;
+
+}
+int main(){
+    int ch,i;
+    printf("Give the choice");
+    printf("1-create\n2-insert at begin\n3-insert at end\n4-insert at pos\n5-del at begin\n6-del at end\n7-del pos\n8- display\n9-rev display");
+    scanf("%d",&ch);
+    while(1){
+        switch (ch)
+        {
+        case 1:
+            head = create(head);
+            break;
+/*        case 2:
+            scanf("%d",&i);
+            head = insert_begin(head,i);
+            break;
+        case 3:
+            scanf("%d",&i);
+            tail = insert_end(tail,i);  
+            break;
+        case 4:
+            scanf("%d",&i);
+            head = insert_pos(head,i);
+            break;
+        case 5:
+            head = del_begin(head);
+            break;
+        case 6:
+            tail = del_end(tail);
+            break;
+        case 7:
+            scanf("%d",&i);
+            head = del_pos(head,i);
+            break;
+        case 8:
+            head = display(head);
+            break;
+        case 9:
+            tail = rev_display(tail);*/
+        default:
+            break;
+        }
+    }
+}
