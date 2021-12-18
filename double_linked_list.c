@@ -154,4 +154,153 @@ int main(){
         }
     }
 }
+/* Output:
+Give your choice
+1-create
+2-insert at begin
+3-insert at end
+4-insert at pos
+5-del at begin
+6-del at end
+7-del pos
+8- display
+9-rev display
+10-exit
+1
+Give the no of nodes
+4
+1
+2
+3
+4
+Give your choice
+1-create
+2-insert at begin
+3-insert at end
+4-insert at pos
+5-del at begin
+6-del at end
+7-del pos
+8- display
+9-rev display
+10-exit
+8
+1
+2
+3
+4
+Give your choice
+1-create
+2-insert at begin
+3-insert at end
+4-insert at pos
+5-del at begin
+6-del at end
+7-del pos
+8- display
+9-rev display
+10-exit
+2
+0
+Give your choice
+1-create
+2-insert at begin
+3-insert at end
+4-insert at pos
+5-del at begin
+6-del at end
+7-del pos
+8- display
+9-rev display
+10-exit
+3
+5
+Give your choice
+1-create
+2-insert at begin
+3-insert at end
+4-insert at pos
+5-del at begin
+6-del at end
+7-del pos
+8- display
+9-rev display
+10-exit
+4
+Give pos
+2
+Give ele
+6
+Give your choice
+1-create
+2-insert at begin
+3-insert at end
+4-insert at pos
+5-del at begin
+6-del at end
+7-del pos
+8- display
+9-rev display
+10-exit
+9
+5
+4
+3
+2
+1
+6
+0
+Give your choice
+1-create
+2-insert at begin
+3-insert at end
+4-insert at pos
+5-del at begin
+6-del at end
+7-del pos
+8- display
+9-rev display
+10-exit
+5
+Deleted element 0
+Give your choice
+1-create
+2-insert at begin
+3-insert at end
+4-insert at pos
+5-del at begin
+6-del at end
+7-del pos
+8- display
+9-rev display
+10-exit
+6
+Deleted element 5
+Give your choice
+1-create
+2-insert at begin
+3-insert at end
+4-insert at pos
+5-del at begin
+6-del at end
+7-del pos
+8- display
+9-rev display
+10-exit
+7
+2
+Deleted element is 6
+Give your choice
+1-create
+2-insert at begin
+3-insert at end
+4-insert at pos
+5-del at begin
+6-del at end
+7-del pos
+8- display
+9-rev display
+10-exit
+10
+*/
 
